@@ -7,7 +7,30 @@
     <link rel="stylesheet" href="style.css">
     <title>Basic Template</title>
     <style>
-       
+       input:focus{
+            color:#ff0000a8;
+            
+
+        }
+        li:last-child{
+            color: rgb(255, 0, 0);
+            font-size: 38px;
+
+        }
+        #khg li:nth-child(2n+1){
+            background-color: lightskyblue;
+        }
+        #pse::before{
+            content: " Hello h1 ";
+        }
+        #aft::after{
+            content: " adding after text";
+        }
+        #dt{
+            text-align: center;
+            color:black;
+            background-color: cadetblue;
+        }
     </style>
 </head>
 <body>
@@ -17,9 +40,28 @@
         </p>
     </head>
     <h1> change some fonts</h1>
-    <h2> push gitub</h2>
+    <h2> push github</h2>
     <h3>problam</h3>
     <h3> double testing</h3>
-    <h4>lgjgriojfl</h4>
+    <input type="text" name="gmail"><br>
+    <input type="text" name="password">
+    <h1>Hello world</h1>
+    <h2 id="dt"> code |date: 02/01/2022</h2>
+    <ul>
+        <li>none</li>
+        <li>nine</li>
+        <li>some</li>
+        <li>noone</li>
+        <li>five</li>
+    </ul>
+    <ul id="khg">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+        <li>five</li>
+    </ul>
+    <h2 id="pse"> Pseudu element</h2>
+    <p id="aft">using pseudu element after</p>
 </body>
 </html>
