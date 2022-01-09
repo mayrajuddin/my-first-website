@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.5-CSS</title>
+    <style>
+        input:focus{
+            color:brown;
+            width: 200px;
+        }
+        li{
+            list-style: none;
+        }
+        li:nth-child(2n+1){
+            background-color: darkcyan;
+            color: #ffffff;
+           
+        }
+        a:visited{
+            color:red;
+        }
+        h3::after{
+            content: " its pesudo element after";
+            color:red;
+        }
+        h4::before{
+            content: "before element";
+            color:darkcyan;
+        }
+        body{
+            counter-reset: section;
+        }
+        p::before{
+            counter-increment: section;
+            content:"Name" counter(section) ":";
+        }
+        div{
+            height:100px;
+            width: 100px;
+        }
+        #container{
+            background-color: darkcyan;
+        }
+        .first{
+            background-color: darkgoldenrod;
+        }
+        .second{
+            background-color: rgb(218, 19, 158);
+            position: relative;
+            top:0px;
+            left: 100px;
+        }
+        .third{
+            background-color: darkkhaki;
+        }
+        .f4th{
+            background-color: #1b17d673;
+            position: relative;
+            top: -300px;
+            left:200px;
+        }
+        .f5th{
+            background-color: darkorchid;
+            position: relative;
+            top: -200px;
+            left: 200px;
+        }
+        .s6th{
+            background-color: darkturquoise;
+        }
+        #Speci::before{
+            content: "";
+        }
+        h2{
+            color:#ff0000 !important;
+        }
+        #hh{
+            color:firebrick;
+        }
+    </style>
+</head>
+<body>
+    <input name="email" type="text"><br>
+    <input name="password" type="password"><br>
+    <a href="https://www.facebook.com/fake.mayraj" target="_blank"> Find me on Facebook</a><br>
+    <ul style="display: inline-block; width:160px;">
+        <li>abdulla</li>
+        <li>Mohammad</li>
+        <li>Rahman</li>
+        <li>Omar</li>
+        <li>taliv</li>
+    </ul>
+    <h3> Pesudo Element</h3>
+    <h4> pesudo before element</h4>
+    <p>hfhf</p>
+    <p>kdkk</p>
+    <p>kdkdk</p>
+    <p>kdkdk</p>
+    <p>llldd</p>
+    <section>
+        <h2>
+            Learning Position
+        </h2>
+    </section>
+    <section id="container">
+        <div class="first"></div>
+        <div class="second"></div>
+        <div class="third"></div>
+        <div class="f4th"></div>
+        <div class="f5th"></div>
+        
+    </section>
+    <h2 id="hh"> Specificity </h2>
+    <p id="Speci"> Specificity is the means by which browsers decide which CSS property values are the most relevant to an element and, therefore, will be applied. Specificity is based on the matching rules which are composed of different sorts of CSS selectors.</p>
+
+    <!--
+        1.css overflow
+        2.Media Query .
+        3.css aimation.
+        4.css3
+        5.css selector/advance selector
+    -->
+</body>
+</html>
