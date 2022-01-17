@@ -2,5 +2,44 @@ h1{ color:aqua}
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: sans-serif;
 }
 h3{ color:cadetblue;}
+/* code for portfolio */
+header{
+   position: sticky;
+   top:0 ;
+}
+.logo{
+    float: left;
+    width: 40%;
+    background-color: aquamarine;
+    height: 40px;
+    border-right: 2px solid red;
+}
+.navbar{
+    width: 60%;
+    float: right;
+    background-color: #7fffd4;
+    height: 40px;
+    padding: 10px;
+}
+.navbar ul{
+   padding-left: 50px;
+}
+.navbar ul li{
+    list-style: none;
+    float: left;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+.navbar ul li a{
+    text-decoration: none;
+   
+    padding: 5px;
+    color: #ff0e0e;
+}
