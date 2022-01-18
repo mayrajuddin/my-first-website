@@ -1,45 +1,36 @@
-h1{ color:aqua}
+
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 
 }
 body{
+    margin: 0;
     font-family: sans-serif;
+    text-transform: capitalize;
 }
 h3{ color:cadetblue;}
 /* code for portfolio */
-header{
-   position: sticky;
-   top:0 ;
+section{
+    padding:20px;
+    height: 330px;
 }
-.logo{
-    float: left;
+h1{
+    font-size: 40px;
+}
+.highlight{
+    color: orange;
+}
+.leftside{
     width: 40%;
-    background-color: aquamarine;
-    height: 40px;
-    border-right: 2px solid red;
-}
-.navbar{
-    width: 60%;
-    float: right;
-    background-color: #7fffd4;
-    height: 40px;
-    padding: 10px;
-}
-.navbar ul{
-   padding-left: 50px;
-}
-.navbar ul li{
-    list-style: none;
     float: left;
-    padding-right: 10px;
-    text-transform: uppercase;
+    margin-left: 40px;
 }
-.navbar ul li a{
-    text-decoration: none;
-   
-    padding: 5px;
-    color: #ff0e0e;
+.rightside{
+    width: 50%;
+    float: left;
+    padding:20px;
+}
+.rightside img{
+    border-radius: 144px;
+    margin-left: 120px;
 }
