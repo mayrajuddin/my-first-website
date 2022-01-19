@@ -8,14 +8,19 @@ body{
     font-family: sans-serif;
     text-transform: capitalize;
 }
-h3{ color:cadetblue;}
+h3{ 
+    color:cadetblue;
+}
 /* code for portfolio */
 section{
-    padding:20px;
-    height: 330px;
+    height: 380px;
+    margin-bottom: 20px;
 }
 h1{
     font-size: 40px;
+}
+p{
+    color: dimgray;
 }
 .highlight{
     color: orange;
@@ -24,13 +29,48 @@ h1{
     width: 40%;
     float: left;
     margin-left: 40px;
+   
+}
+.link_button{
+    text-decoration: none;
+    background-image: linear-gradient( 45deg, lightsalmon, orange);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+
 }
 .rightside{
-    width: 50%;
+    width: 40%;
     float: left;
     padding:20px;
 }
-.rightside img{
+.left-margin{
+    margin-left: 50px;
+}
+.img_border{
     border-radius: 144px;
     margin-left: 120px;
+}
+.box-shadow{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+    padding:30px;
+    background-color: #fff;
+}
+#stack{
+    border-left: 6px solid ;
+    border-image:linear-gradient( 180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#stack-2{
+    border-left: 6px solid;
+    border-image: linear-gradient( 180deg, orange, lightsalmon );
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 16px;
+    color: dimgray;
 }
