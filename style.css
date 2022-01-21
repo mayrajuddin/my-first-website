@@ -26,7 +26,7 @@ p{
     color: orange;
 }
 .leftside{
-    width: 40%;
+    width: 47%;
     float: left;
     margin-left: 40px;
    
@@ -41,12 +41,12 @@ p{
 
 }
 .rightside{
-    width: 40%;
+    width: 50%;
     float: left;
     padding:20px;
 }
 .left-margin{
-    margin-left: 50px;
+    margin-left: 40px;
 }
 .img_border{
     border-radius: 144px;
@@ -58,6 +58,7 @@ p{
     height: 60%;
     padding:30px;
     background-color: #fff;
+    width: 42%;
 }
 #stack{
     border-left: 6px solid ;
