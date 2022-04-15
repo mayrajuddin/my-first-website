@@ -64,14 +64,14 @@
                         </div>
                     </div>
                     <div class="menu pd">
-                        <div class="row">
-                            <div class="col-lg-9">
+                        <div class="row align-items-center">
+                            <div class="col-lg-8">
                                 <nav class="navvar navbar-expand-lg">
                                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#siteMenu">
                                         <i class="fa-solid fa-bars"></i>
                                     </button>
                                     <div class="collapse navbar-collapse" id="siteMenu">
-                                        <ul class="navbar-nav">
+                                        <ul class="navbar-nav d-flex justify-content-between">
                                             <li class="nav-item"><a href="home.html" class="nav-link">home</a></li>
                                             <li class="nav-item"><a href="" class="nav-link">pages</a></li>
                                             <li class="nav-item"><a href="" class="nav-link">donations</a></li>
@@ -82,8 +82,11 @@
                                     </div>
                                 </nav>
                             </div>
-                            <div class="col-lg-3">
-
+                            <div class="col-lg-3 offset-1 text-center donate">
+                                <a href="">
+                                    <i class="fa-solid fa-heart"></i>
+                                    Donate
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -93,17 +96,68 @@
     </header>
     <!-- header section end -->
 
-    <!-- section start -->
-    <section></section>
-    <!-- section end -->
+    <!-- banner section start -->
+    <section id="banner">
+        <div class=" banner_slider">
+            <div class="slider_item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 row align-items-center">
+                            <div class="slider_content">
+                                <h4>helping them today</h4>
+                                <h2>helping the poor <span>in</span> need</h2>
+                                <a href="#">
+                                    <i class="fa-solid fa-arrow-right right"></i>
+                                    learn more
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 slide_right_content">
+                        <div class="right_content row mx-0">
+                            <div class="col-6 text">
+                                <span class="counter">4329</span>
+                                <h4>Volunteers are Available</h4>
+                            </div>
+                            <div class="col-6 text">
+                                <span class="counter">7900</span>
+                                <h4>Funds Raised by People</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner section end -->
+    <!-- Charity section start -->
+    <section id="charity">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 img-sec">
+                    <div class="main_img">
+                        <img src="../images/helps/letest.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-6 charity_content">
+                    <div class="heading">
+                        <p>------- Welcome to Charity</p>
+                        <h2>Helping each other can make world better</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Charity section end -->
 
     <!-- footer section start -->
     <footer></footer>
     <!-- footer section end -->
 
     <!-- jquary plugin start -->
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/slick.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.counterup.min.js"></script>
+    <script src="../js/waypoint.min.js"></script>
     <!-- jquary plugin end -->
     
     <!-- custom plugin start -->
@@ -111,7 +165,7 @@
     <!-- custom plugin end -->
 
     <!-- main js  -->
-    <script src="js/basic.js"></script>
+    <script src="../js/script.js"></script>
     <!-- main js end -->
 </body>
 </html>
