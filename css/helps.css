@@ -236,6 +236,9 @@ header .menu .donate a:hover{
 #charity .charity_content{
     padding-left: 20px;
 }
+#charity .charity_content .heading{
+    margin-bottom: 34px;
+}
 #charity .charity_content .heading p{
     font-size: 18px;
     font-weight: 900;
@@ -246,6 +249,47 @@ header .menu .donate a:hover{
     font-weight: 900;
     text-transform: capitalize;
     color: var(--dark-color);
+}
+#charity .charity_content .content_para p{
+    color: #707876;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+}
+#charity .charity_content .goal{
+    padding: 24px 0;
+}
+#charity .charity_content .goal h5{
+    color: var(--dark-color);
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 18px;
+}
+#charity .charity_content .goal h5 i{
+    color: var(--primary-color);
+    margin-right: 4px;
+}
+#charity .charity_content .goal p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #707876;
+}
+#charity .charity_content .proggres p{
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+#charity .charity_content a{
+    display: inline-block;
+    padding: 14px 22px;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 45px;
 }
 /* footer section start */
 /* footer{} */
