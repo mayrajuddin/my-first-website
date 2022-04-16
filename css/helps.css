@@ -228,10 +228,54 @@ header .menu .donate a:hover{
 /* banner section end */
 /* Charity section start */
 #charity{
-    margin: 100px 0;
+    margin: 100px 0 160px;
+}
+#charity .img-sec{
+    position: relative;
+}
+#charity .main_img{
+    position: relative;
+}
+#charity .main_img::before{
+    content: '';
+    position: absolute;
+    left: -60px;
+    top: 0;
+    width: 24px;
+    height: 44%;
+    background-color: var(--primary-color);
 }
 #charity .main_img img{
     width: 95%;
+}
+#charity .main_img .upperimg{
+    position: absolute;
+    left: -64px;
+    bottom: -30px;
+    width: 320px;
+}
+#charity .main_img .upperimg img{
+    width: 320px;
+}
+#charity .img-sec .bttext{
+    position: absolute;
+    left: 65px;
+    bottom: -50px;
+}
+#charity .img-sec .bttext p{
+    font-family: var(--reeyfont);
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #15c8a0;
+}
+#charity .img-sec .hearticon{
+    position: absolute;
+    right: 49px;
+    bottom: -89px;
+}
+#charity .img-sec .bttext .hearticon img{
+    width: 100%;
 }
 #charity .charity_content{
     padding-left: 20px;
@@ -291,6 +335,39 @@ header .menu .donate a:hover{
     text-transform: capitalize;
     margin-top: 45px;
 }
+/* Charity section end */
+/* Causes section start */
+#causes{
+    margin-top: 100px;
+}
+#causes .tlebg{
+    position: relative;
+}
+#causes .tlebg::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 510px;
+    background-color: #eff5f4;
+    z-index: -1;
+}
+#causes .causestitle{
+    text-transform: capitalize;
+    padding: 100px 0 40px;
+}
+#causes .causestitle p{
+    color: var(--primary-color);
+    font-weight: 900;
+    font-size: 20px;
+}
+#causes .causestitle h3{
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 62px;
+}
+/* Causes section end */
 /* footer section start */
 /* footer{} */
 /* footer section end */
