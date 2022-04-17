@@ -338,7 +338,7 @@ header .menu .donate a:hover{
 /* Charity section end */
 /* Causes section start */
 #causes{
-    margin-top: 100px;
+    margin: 100px 0 80px;
 }
 #causes .tlebg{
     position: relative;
@@ -355,7 +355,7 @@ header .menu .donate a:hover{
 }
 #causes .causestitle{
     text-transform: capitalize;
-    padding: 100px 0 40px;
+    padding: 100px 0 80px;
 }
 #causes .causestitle p{
     color: var(--primary-color);
@@ -367,7 +367,77 @@ header .menu .donate a:hover{
     font-weight: 900;
     line-height: 62px;
 }
+#causes .causes_slider .causes_item{
+    border: 1px solid #efefef;
+}
+#causes .causes_slider .causes_item .card{
+    border-radius: initial;
+    border: initial;
+    padding: 20px;
+}
+#causes .causes_slider .causes_item .card img{
+    border-top-left-radius: initial;
+    border-top-right-radius: initial;
+    margin-top: -44px;
+}
+#causes .causes_slider .causes_item .card .card-body{
+    padding: 1rem 0 0 0;
+}
+#causes .causes_slider .causes_item .card .card-body a{
+    font-size: 28px;
+    font-weight: 900;
+    display: inline-block;
+    color: var(--dark-color);
+    text-transform: capitalize;
+}
+#causes .causes_slider .causes_item .card .card-body p{
+    font-size: 16px;
+    color: #707876;
+    
+}
+#causes .causes_slider .causes_item .causes_item_btm{
+    padding: 20px;
+    background-color: #eff5f4;
+}
+#causes .causes_slider .causes_item .causes_item_btm .causes_prggres{
+    padding-top: 24px;
+}
+#causes .causes_slider .causes_item ul li p{
+    font-size: 20px;
+    font-weight: 900;
+}
+#causes .causes_slider .causes_item ul li p small{
+    font-weight: 400;
+    color: #707876;
+    text-transform: capitalize;
+    font-size: 14px;
+}
 /* Causes section end */
+/* join community section start*/
+#community{
+    background: url(../images/helps/join-one-bg.jpg);
+    background-position: left;
+    background-size: cover;
+}
+#community .title{
+    padding: 80px 0;
+}
+#community .title h2{
+    font-size: 48px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 30px;
+}
+#community .title a{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 14px 34px;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: var(--primary-color);
+}
+/* join community section end */
 /* footer section start */
 /* footer{} */
 /* footer section end */

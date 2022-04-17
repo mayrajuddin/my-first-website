@@ -23,4 +23,14 @@ $(function(){
         width: '100%'
     })
     // prggress bar  js end
+    // causesproggres section 
+    $('.causes_prggres').rProgressbar({
+        percentage: 80,
+        duration: 2000,
+        fillBackgroundColor: '#15c8a0',
+        backgroundColor: '#fff',
+        borderRadius: '0px',
+        height: '12px',
+        width: '100%'
+    })
 })
