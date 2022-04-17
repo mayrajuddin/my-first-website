@@ -30,7 +30,7 @@ Table of Content
     --reeyfont: 'Reey', sans-serif;
     --primary-color : #15c8a0;
     --dark-color : #1f2230;
-    --liner3s : all linear .3s;
+    --liner3s : all linear .3s ;
 }
 body{
     font-family: 'Nunito', sans-serif;
@@ -438,6 +438,52 @@ header .menu .donate a:hover{
     background-color: var(--primary-color);
 }
 /* join community section end */
+/* testimonial section start */
+#testimonial{
+    margin: 100px 0;
+}
+#testimonial .test_gallary .img_over img{
+    width: 100%;
+}
+/* testimonial section end */
 /* footer section start */
-/* footer{} */
+footer .fot_img{
+    background: var(--primary-color);
+}
+footer .fot_social{
+    background: var(--dark-color);
+}
+footer .fot_social ul li{
+    padding: 50px 5px;
+}
+footer .fot_social ul li a{
+    display: inline-block;
+    padding: initial;
+    background: #fff;
+    border-radius: 50%;
+    transition: var(--liner3s);
+    color: var(--dark-color);
+}
+footer .fot_social ul li a:hover{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+footer .fot_social ul li a i{
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
+footer .fot_tle{
+    background-color: var(--dark-color);
+    padding-left: 70px;
+}
+footer .fot_tle p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #b8bbc9;
+    text-transform: capitalize;
+}
 /* footer section end */
