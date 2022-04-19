@@ -33,4 +33,9 @@ $(function(){
         height: '12px',
         width: '100%'
     })
+    $('.clientslider').slick({
+        slidesToShow:2,
+        prevArrow:'<i class="fa-solid fa-arrow-left sliderarrow"></i>',
+        nextArrow : '<i class="fa-solid fa-arrow-right sliderarrow"></i>'
+    })
 })

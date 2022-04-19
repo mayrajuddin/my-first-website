@@ -438,12 +438,186 @@ header .menu .donate a:hover{
     background-color: var(--primary-color);
 }
 /* join community section end */
+/* donate section  start */
+#donate{
+    margin: 100px 0;
+}
+#donate .donatetitle{
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+#donate .donatetitle p{
+    color: var(--primary-color);
+    font-weight: 900;
+    font-size: 20px;
+}
+#donate .donatetitle h3{
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 62px;
+}
+#donate .donate_content{
+    padding-right: 50px;
+}
+#donate .content_box h3{
+    font-size: 24px;
+    font-weight: 900;
+    color: var(--primary-color);
+}
+#donate .content_box p{
+    padding: 28px 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #707876;
+}
+#donate .donate_causes p{
+    padding: 8px 0;
+    font-size: 18px;
+    font-weight: 900;
+    color: var(--dark-color);
+    text-transform: capitalize;
+}
+#donate .donate_causes p i{
+    margin-right: 6px;
+    color: var(--primary-color);
+}
+#donate .donate_content .helping_img{
+    margin-top: 70px;
+    position: relative;
+}
+#donate .helping_img img{
+    width: 100%;
+}
+#donate .helping_img .img_icon{
+    position: absolute;
+    right: 30px;
+    top: 0;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    background-color: var(--primary-color);
+    text-align: center;
+}
+#donate .helping_img .img_icon i{
+    font-size: 38px;
+    line-height: 120px;
+    color: #fff
+}
+#donate .donate_form{
+    background-color: #eff5f4;
+    padding: 60px;
+}
+#donate .donate_form form input,
+#donate .donate_form form textarea{
+    border: none;
+    box-shadow: none;
+    font-family: 'Nunito', sans-serif;
+    padding: 24px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #707876;
+    text-transform: capitalize;
+}
+#donate .donate_form form textarea{
+    min-height: 160px;
+}
+#donate .donate_form form a{
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: #fff;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: capitalize;
+    line-height: 60px;
+    transition: var(--liner3s);
+}
+#donate .donate_form form a:hover{
+    background-color: var(--dark-color);
+}
+/* donate section  end */
 /* testimonial section start */
 #testimonial{
-    margin: 100px 0;
+    padding-bottom: 100px;
+    background: url(../images/helps/testimonial-1-bg.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+#testimonial::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(239, 245, 244, .9);
+    z-index: -1;
 }
 #testimonial .test_gallary .img_over img{
     width: 100%;
+}
+#testimonial .clientSec{
+    padding-top: 80px;
+}
+#testimonial .clientSec .heading h5{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-transform: capitalize;
+}
+#testimonial .clientSec .heading h2{
+    font-size: 47px;
+    font-weight: 900;
+    line-height: 64px;
+    padding-right: 38px;
+    color: var(--dark-color);
+    text-transform: capitalize;
+}
+#testimonial .clientSec .tesitem{
+    background-color: #fff;
+    padding: 30px;
+}
+#testimonial .clientSec .tesitem p{
+    font-size: 16px;
+    color: #707876;
+    line-height: 32px;
+}
+#testimonial .clientSec .tesitem .client{
+    margin-top: 18px;
+}
+#testimonial .clientSec .tesitem .name p{
+    font-size: 20px;
+    font-weight: 900;
+    color: var(--primary-color);
+    text-transform: capitalize;
+}
+#testimonial .clientSec .tesitem .name span{
+    font-size: 18px;
+    font-weight: 700;
+    color: #707876;
+    text-transform: capitalize;
+}
+.sliderarrow{
+    position: absolute;
+    left: -30%;
+    top: 75%;
+    height: 50px;
+    width: 50px;
+    background: #fff;
+    z-index: 1;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: var(--dark-color);
+    cursor: pointer;
+}
+.sliderarrow.fa-arrow-left{
+    left: -40%;
 }
 /* testimonial section end */
 /* contact section start */
