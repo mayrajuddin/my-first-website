@@ -33,9 +33,32 @@ $(function(){
         height: '12px',
         width: '100%'
     })
+    $('.causes_slider').slick({
+        slidesToShow:3,
+        arrows:false
+    })
+    $('.testSlider').slick({
+        slidesToShow:5,
+        arrows:false,
+        autoplay:true
+    })
     $('.clientslider').slick({
         slidesToShow:2,
         prevArrow:'<i class="fa-solid fa-arrow-left sliderarrow"></i>',
         nextArrow : '<i class="fa-solid fa-arrow-right sliderarrow"></i>'
     })
+    // home page js end
+    // about page js start--
+    // Our Testimonial Slider Js Start
+    $('.test_slider').slick({
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        speed: 500,
+        prevArrow:$('.testimonial_left_btn'),
+        nextArrow:$('.testimonial_right_btn'),
+    })
+    // ||Our Testimonial Slider Js End||
+    // about page js end
 })
