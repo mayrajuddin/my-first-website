@@ -44,8 +44,7 @@ $(function(){
     })
     $('.clientslider').slick({
         slidesToShow:2,
-        prevArrow:'<i class="fa-solid fa-arrow-left sliderarrow"></i>',
-        nextArrow : '<i class="fa-solid fa-arrow-right sliderarrow"></i>'
+        arrows:false
     })
     // home page js end
     // about page js start--
