@@ -723,8 +723,33 @@ header .menu .donate a:hover{
 #blog .blog_item{
     padding-top: 40px;
 }
+#blog .blog_item .main_item{
+    position: relative;
+
+}
 #blog .blog_item .main_item img{
     width: 100%;
+}
+#blog .blog_item  .main_item_overlay{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 0;
+    background-color: rgba(31,34,48, .9);
+    transition: var(--liner3s);
+    opacity: 0;
+    visibility: 0;
+
+}
+#blog .blog_item .item_left:hover .main_item .main_item_overlay{
+    height: 100%;
+    opacity: 1;
+    visibility: 1;
+}
+#blog .blog_item .main_item_overlay a{
+    font-size: 24px;
+    color: var(--primary-color);
 }
 #blog .blog_item .item_title{
     background-color: var(--primary-color);
@@ -740,6 +765,10 @@ header .menu .donate a:hover{
     padding-top: 14px;
     display: inline-block;
 }
+#blog .item_right .news_img{
+    position: relative;
+    transition: var(--liner3s);
+}
 #blog .item_right .news_img img{
     width: 100%;
 }
@@ -750,6 +779,14 @@ header .menu .donate a:hover{
     font-size: 14px;
     color: #707876;
 }
+#blog .item_right .newsright:hover .main_item_overlay{
+    height: 100%;
+    opacity: 1;
+    visibility: 1;
+}
+#blog .item_right .newsright:hover .news_title a{
+    color: var(--primary-color);
+}
 #blog .item_right .newsright .news_title p span{
     color: var(--primary-color);
 }
@@ -758,6 +795,7 @@ header .menu .donate a:hover{
     font-size: 28px;
     font-weight: 900;
     color: var(--dark-color);
+    transition: var(--liner3s);
 }
 /* blog section end */
 
