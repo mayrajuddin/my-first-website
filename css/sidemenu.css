@@ -8,13 +8,13 @@
     color: #fff;
     overflow-y: auto;
 }
-/* .sidemenu.hide{
+.sidemenu.hide{
     display: none !important;
 }
 .sidemenu.show{
-    margin-right: 260px;
+    /* margin-right: 260px; */
     display: block !important;
-} */
+}
 .sidemenu .cros {
     text-align: end;
     padding: 8px 0;
