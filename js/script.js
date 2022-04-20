@@ -46,6 +46,12 @@ $(function(){
         slidesToShow:2,
         arrows:false
     })
+    $('#hideMenu').on('click', function(){
+        $('.sidemenu').addClass('hide')
+    })
+    $('#showmenu').on('click', function(){
+        $('.sidemenu').addClass('show')
+    })
     // home page js end
     // about page js start--
     // Our Testimonial Slider Js Start

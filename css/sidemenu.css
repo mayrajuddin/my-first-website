@@ -1,0 +1,44 @@
+.sidemenu{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh !important;
+    width: 260px !important;
+    background-color: #1f2230;
+    color: #fff;
+    overflow-y: auto;
+}
+/* .sidemenu.hide{
+    display: none !important;
+}
+.sidemenu.show{
+    margin-right: 260px;
+    display: block !important;
+} */
+.sidemenu .cros {
+    text-align: end;
+    padding: 8px 0;
+}
+.sidemenu .cros button{
+    color: #fff;
+    box-shadow: initial;
+    border: initial;
+}
+.sidemenu .sidelogo {
+    border-bottom: 1px solid #ddd;
+    margin: 0 16px;
+    padding-bottom: 16px;
+}
+.sidemenu ul{
+    padding: 6px 16px;
+}
+.sidemenu ul li{
+    border-bottom: 1px solid #ddd;
+}
+.sidemenu ul li a{
+    color: #fff;
+    text-transform: capitalize;
+}
+.sidemenu ul li a:hover{
+    color: #15c8a0;
+}
