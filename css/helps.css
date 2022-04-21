@@ -471,43 +471,55 @@ header .menu .donate a:hover{
 }
 /* join community section end */
 /* donate section  start */
-#donate{
+#donate,
+#contact_form{
     margin: 100px 0;
 }
-#donate .donatetitle{
+#donate .donatetitle,
+#contact_form .donatetitle{
     text-transform: capitalize;
     padding-bottom: 30px;
 }
-#donate .donatetitle h5{
+#donate .donatetitle h5,
+#contact_form .donatetitle h5{
     color: var(--primary-color);
     font-weight: 900;
     font-size: 20px;
     position: relative;
 }
 #donate .donatetitle h5::before{
+    left: 200px;
+}
+#donate .donatetitle h5::before,
+#contact_form .donatetitle h5::before{
     content: '';
     position: absolute;
     width: 50px;
     height: 2px;
     top: 50%;
     transform: translateY(-50%);
-    left: 200px;
     background-color: var(--primary-color);
 }
 #donate .donatetitle h3{
     font-size: 50px;
+}
+#donate .donatetitle h3,
+#contact_form .donatetitle h3{
     font-weight: 900;
     line-height: 62px;
 }
-#donate .donate_content{
+#donate .donate_content,
+#contact_form .donate_content{
     padding-right: 50px;
 }
-#donate .content_box h3{
+#donate .content_box h3,
+#contact_form .content_box h3{
     font-size: 24px;
     font-weight: 900;
     color: var(--primary-color);
 }
-#donate .content_box p{
+#donate .content_box p,
+#contact_form .content_box p{
     padding: 28px 0;
     font-size: 16px;
     font-weight: 700;
@@ -548,12 +560,15 @@ header .menu .donate a:hover{
     line-height: 120px;
     color: #fff
 }
-#donate .donate_form{
+#donate .donate_form,
+#contact_form .contactmain_form{
     background-color: #eff5f4;
     padding: 60px;
 }
 #donate .donate_form form input,
-#donate .donate_form form textarea{
+#donate .donate_form form textarea,
+#contact_form .contactmain_form form input,
+#contact_form .contactmain_form form textarea{
     border: none;
     box-shadow: none;
     font-family: 'Nunito', sans-serif;
@@ -563,10 +578,12 @@ header .menu .donate a:hover{
     color: #707876;
     text-transform: capitalize;
 }
-#donate .donate_form form textarea{
+#donate .donate_form form textarea,
+#contact_form .contactmain_form form textarea{
     min-height: 160px;
 }
-#donate .donate_form form a{
+#donate .donate_form form a,
+#contact_form .contactmain_form form a{
     display: inline-block;
     background-color: var(--primary-color);
     color: #fff;
@@ -579,7 +596,8 @@ header .menu .donate a:hover{
     line-height: 60px;
     transition: var(--liner3s);
 }
-#donate .donate_form form a:hover{
+#donate .donate_form form a:hover,
+#contact_form .contactmain_form form a:hover{
     background-color: var(--dark-color);
 }
 /* donate section  end */
@@ -993,9 +1011,12 @@ h5.about_heading::before{
     background-color: var(--primary-color);
 }
 /* ||Common Css End|| */
-/* About Banner Css Start */
+/* About Banner Css Start][ contact section css common */
 #about_banner{
     background: url(../images/helps/banner-about.jpg);
+}
+#about_banner,
+#contact_banner{
     height: 350px;
     position: relative;
     background-size: cover;
@@ -1003,7 +1024,8 @@ h5.about_heading::before{
     z-index: 1;
     color: #fff;
 }
-#about_banner::after{
+#about_banner::after,
+#contact_banner::after{
     content: ' ';
     position: absolute;
     left: 0;
@@ -1013,11 +1035,14 @@ h5.about_heading::before{
     background: hsl(229, 22%, 15%, .7);
     z-index: -1;
 }
-#about_banner h2{
+#about_banner h2,
+#contact_banner h2{
     font-size: 70px;
     font-weight: 900;
+    text-transform: capitalize;
 }
-#about_banner .banner_container{
+#about_banner .banner_container,
+#contact_banner .banner_container{
     background-color: #fff;
     display: inline-block;
     position: absolute;
@@ -1025,19 +1050,24 @@ h5.about_heading::before{
     right: 15%;
     padding: 11px 40px;
 }
-#about_banner .banner_container ul li{
+#about_banner .banner_container ul li,
+#contact_banner .banner_container ul li{
     display: inline-block;
 }
-#about_banner .banner_container ul li a{
+#about_banner .banner_container ul li a,
+#contact_banner .banner_container ul li a{
     color: var(--dark-color);
     font-size: 16px;
     font-weight: 900;
+    text-transform: capitalize;
 }
-#about_banner .banner_container ul li.slash{
+#about_banner .banner_container ul li.slash,
+#contact_banner .banner_container ul li.slash{
     padding: 0 5px;
     color: #E5EEEC;
 }
-#about_banner .banner_container ul li a.mark_ab{
+#about_banner .banner_container ul li a.mark_ab,
+#contact_banner .banner_container ul li a.mark_ab{
     color: var(--primary-color);
 }
 /* ||About Banner Css End|| */
@@ -1458,3 +1488,56 @@ News Page
     padding-bottom: 30px;
 }
 /* ||News Shorts Css End|| */
+/* contact page css start
+======================= */
+#contact_banner{
+    background: url(../images/helps/contact-banner.jpg);
+}
+#contact_form .donatetitle h5::before{
+    left: 185px;
+}
+#contact_form .donatetitle h3{
+    font-size: 48px;
+}
+#contact_form .msg ul li {
+    width: 70%;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e5eeec;
+    padding: 14px 0;
+}
+#contact_form .msg ul li:last-child{
+    border-bottom: 1px solid transparent;
+}
+#contact_form .msg ul li .icon{
+    background-color: var(--primary-color);
+    color: #fff;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 30px;
+    border-radius: 50%;
+    margin-right: 16px;
+    transition: var(--liner3s);
+}
+#contact_form .msg ul li .d p{
+    color: #707876;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+}
+#contact_form .msg ul li .d a{
+    display: inline-block;
+    color: var(--dark-color);
+    font-size: 18px;
+    font-weight: 700;
+    transition: var(--liner3s);
+}
+#contact_form .msg ul li:hover .icon{
+    background-color: var(--dark-color);
+}
+#contact_form .msg ul li:hover .d a{
+    color: var(--primary-color);
+}
+/* contact page css end
+======================= */
