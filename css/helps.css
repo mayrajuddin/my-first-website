@@ -406,6 +406,7 @@ header .menu .donate a:hover{
     border-radius: initial;
     border: initial;
     padding: 20px;
+    margin-top: 20px;
 }
 #causes .causes_slider .causes_item .card img{
     border-top-left-radius: initial;
@@ -561,14 +562,17 @@ header .menu .donate a:hover{
     color: #fff
 }
 #donate .donate_form,
-#contact_form .contactmain_form{
+#contact_form .contactmain_form,
+.comment_form{
     background-color: #eff5f4;
     padding: 60px;
 }
 #donate .donate_form form input,
 #donate .donate_form form textarea,
 #contact_form .contactmain_form form input,
-#contact_form .contactmain_form form textarea{
+#contact_form .contactmain_form form textarea,
+.comment_form form input,
+.comment_form form textarea{
     border: none;
     box-shadow: none;
     font-family: 'Nunito', sans-serif;
@@ -579,11 +583,13 @@ header .menu .donate a:hover{
     text-transform: capitalize;
 }
 #donate .donate_form form textarea,
-#contact_form .contactmain_form form textarea{
+#contact_form .contactmain_form form textarea,
+.comment_form form textarea{
     min-height: 160px;
 }
 #donate .donate_form form a,
-#contact_form .contactmain_form form a{
+#contact_form .contactmain_form form a,
+.comment_form form a{
     display: inline-block;
     background-color: var(--primary-color);
     color: #fff;
@@ -597,7 +603,8 @@ header .menu .donate a:hover{
     transition: var(--liner3s);
 }
 #donate .donate_form form a:hover,
-#contact_form .contactmain_form form a:hover{
+#contact_form .contactmain_form form a:hover,
+.comment_form form a:hover{
     background-color: var(--dark-color);
 }
 /* donate section  end */
@@ -1539,5 +1546,119 @@ News Page
 #contact_form .msg ul li:hover .d a{
     color: var(--primary-color);
 }
+#map .frame{
+    height: 400px;
+    width: 100%;
+}
 /* contact page css end
 ======================= */
+/* event details page
+=================== */
+#details{
+    margin:100px 0;
+}
+#details .contentimg img{
+    width: 100%;
+}
+.details_content .content_tle p{
+    color: #707876;
+    font-size: 14px;
+}
+.details_content .content_tle p a{
+    color: #707876;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0 5px;
+    transition: var(--liner3s);
+}
+.details_content .content_tle p a:hover{
+    color: var(--primary-color);
+}
+.details_content .content_tle{
+    margin: 12px 0;
+}
+.details_content .content_tle p a i{
+    color: var(--primary-color);
+}
+.details_content .content_tle h4{
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding-top: 10px;
+    color: var(--dark-color);
+}
+.details_content .content p{
+    font-size: 16px;
+    color: #707876;
+    line-height: 32px;
+    text-align: justify;
+    padding-bottom: 14px;
+}
+.details_content .tegs{
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 20px 0;
+}
+.details_content .tegs .links ul span{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: var(--dark-color);
+    font-weight: 900;
+}
+.details_content .tegs .links ul li a{
+    padding: 8px 14px;
+    background: var(--primary-color);
+    color: #fff;
+    margin: 0 5px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.details_content .tegs .social_links ul li a {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #EFF5F4;
+    line-height: 34px;
+    text-align: center;
+    font-size: 14px;
+    color: #707876;
+    margin: 0px 5px;
+    transition: var(--liner3s);
+}
+.details_content .tegs .social_links ul li a:hover{
+    background-color: var(--primary-color);
+    color: var(--dark-color);
+}
+.details_content .author{
+    margin: 24px 0;
+    background: #EFF5F4;
+    padding: 30px 34px;
+}
+.details_content .author .authorimg img{
+    width: 100%;
+}
+.details_content .author .bio h5{
+    font-size: 22px;
+    font-weight: 900;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    color: var(--dark-color);
+}
+.details_content .author .bio p{
+    font-size: 18px;
+    color: #8D9593;
+    line-height: 28px;
+}
+.details_content .comment_box{
+    margin-top: 40px;
+}
+.details_content .comment_box h4{
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: capitalize;
+    color: var(--dark-color);
+    padding-bottom: 18px;
+}
+/* event details page end
+=================== */
