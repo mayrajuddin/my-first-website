@@ -1696,6 +1696,7 @@ News Page
 .details_sidebar .catagory{
     padding: 30px;
     background-color: #EFF5F4;
+    margin-bottom: 30px;
 }
 .details_sidebar .catagory h4{
     font-size: 20px;
