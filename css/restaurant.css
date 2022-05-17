@@ -1,0 +1,58 @@
+/* 
+Tamplate Name : restaurant template
+Author Name : unknown
+Author gmail : null
+Tamplate Designer : unknown
+Redesign Template : mayraj uddin
+Version : 1.0
+===========================
+Table of Content
+---------------------------
+* Common CSS
+=============
+
+Index page CSS
+==================
+1. section name
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+*/
+
+/* Common css start */
+/* :root{} */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* font-family: 'Grand Hotel', cursive;
+font-family: 'Montserrat', sans-serif; */
+h1,h2,h3,h4,h5,h6,
+p,
+span,small,
+ol,ul{
+    padding: 0;
+    margin: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+/* Common css end */
+
+/* header section start */
+/* header{} */
+/* header section end */
+
+/* section start */
+
+/* section end */
+
+/* footer section start */
+/* footer{} */
+/* footer section end */
